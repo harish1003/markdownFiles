@@ -7,3 +7,10 @@
 1. open sql plus, enter user name as : SYS AS SYSDBA -- trying to login as a root user, no need to enter the password, just click on the enter button
 2. after connecting, ALTER USER USER_NAME IDENTIFIED BY NEW_PASSWORD;
 
+* if command prompt is not showing enter username use this CONN USERNAME/PASSWORD
+
+> How to create a users in db ?
+1. connect to a database using sqlplus conn username/password
+2. CREATE USER MY_USER IDENTIFIED BY MY_PASSWORD
+3. GRANT CONNECT, RESOURCE TO MY_USER
+
