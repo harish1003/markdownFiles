@@ -6,6 +6,12 @@
 > How to change db password / password expiry ?
 1. open sql plus, enter user name as : SYS AS SYSDBA -- trying to login as a root user, no need to enter the password, just click on the enter button
 2. after connecting, ALTER USER USER_NAME IDENTIFIED BY NEW_PASSWORD;
+or
+enter username : hr
+enter passwword : hr
+password expiry .. .
+new password --> enter
+retype --> enter
 
 * if command prompt is not showing enter username use this CONN USERNAME/PASSWORD
 
