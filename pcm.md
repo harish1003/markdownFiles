@@ -46,5 +46,41 @@
 > component category : A Component Category is the entity that Product Control Manager uses to group together Components that typically share common attributes. Component Categories are also groupings of related attribute definitions that enable use of Product Specification Templates for Product Specification Modeling
 ### Product Specification
     * It is the collection of components, and also it is a technical representation of a product.
-     
+    * -- Product Specification Template -- this will enable modelers to define product specification without acquiring detailed knowledge of components that are all available in PCM.
+    * product specification template can be used to create product specification from only those components which are created under component category 
+### Commercial service descriptions
+    * CSD is the basic building block for constructing product offerings. it     defines the commericial view of an underlying technical product            specification.
+    * Association of CSD to product specification is called the ==Technical link==
+    * CSD's can be combined to form the CSD bundles. A CSD bundle becomes the single entity within PCM.
+### Product Offering
+    * It represents what is externally presented to the market for the market use.
+    * It consists of CSD, price plans, various rules.
+### Product Catalog 
+    * A product catalog is an entity which is used represent a logical grouping of product offerings from any product family.
+### Commericial Entities in PCM 
+    * There are six pre-defined commericial entities 
+                - Market Segment
+                - Market Campaign
+                - Credit Rating
+                - Serving Area
+                - Customer Type 
+                - Sales Channel
+## Pricing 
+    * PCM uses the following building blocks to define the pricing for a product offering:
+            - Pricing plans 
+            - Contracts
+            - Rate Plan Description 
+            - Product Pricing Entities 
+### Pricing plans
+    * Pricing plan is used to define pricing ==terms== and rules. A pricing Plan is a collection of one or more Terms.
+    > ex: In terms would be -> Calling Plan Charge, Text Message Fee.Each term has the ability to group one or more related sub terms within the term.
+    for eaxmple if modeler wants to charge different prices for weekends, and weekdays then those two are ==SUBTERMS==
+    * Each subterm can have multiple times-spans, time-span can be defined in units of months,days,weeks,yeraly. we can also specify the price overrides.
+### Product Pricing Entity
+    * product pricing entity allow modeler to associate pricing plans with         modelling entities and contains the other pricing details
+            - Effective dates for pricing(start,end)
+            - Default Pricing
+            - Alternate Pricing plans for csd's
+            - Pricing rukles
+
 
