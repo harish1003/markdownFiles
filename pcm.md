@@ -39,6 +39,11 @@
     * we can set min, max and allowable values to the attribute also default values.
     * attribute presence we can set to mandatory/optional
     *  Facets – Facets provides a mechanism for the modeler to characterize attributes so that the output from the Order Negotiator can be filtered based on specific needs (for example, return only those attributes that have the Billing Affecting facet). 
-*
+### fulfillment Prompts
+    * fulfillment prompt describes that information that need to be collected from an end user to fullfill or provision the component.
+### Components
+* A componenet is typically defined as being a low-level service or resourse that is a part of a product that a subscriber consumes or uses. It is a smallest granular building block in a product model.
+### Product Specification
+    * It is the collection of components, and also it is a technical representation of a product.
      
 
