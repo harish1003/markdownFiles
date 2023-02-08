@@ -43,6 +43,7 @@
     * fulfillment prompt describes that information that need to be collected from an end user to fullfill or provision the component.
 ### Components
 * A componenet is typically defined as being a low-level service or resourse that is a part of a product that a subscriber consumes or uses. It is a smallest granular building block in a product model.
+> component category : A Component Category is the entity that Product Control Manager uses to group together Components that typically share common attributes. Component Categories are also groupings of related attribute definitions that enable use of Product Specification Templates for Product Specification Modeling
 ### Product Specification
     * It is the collection of components, and also it is a technical representation of a product.
      
