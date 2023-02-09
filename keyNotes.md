@@ -13,6 +13,14 @@ password expiry .. .
 new password --> enter
 retype --> enter
 
+> Open cmd -> sqlplus/nolog
+    conn sys as sysdba
+    click enter
+    Alter user hr account unlock; - for unlock
+    ALTER USER USER_NAME IDENTIFIED BY NEW_PASSWORD; -for password expiry
+
+
+
 * if command prompt is not showing enter username use this CONN USERNAME/PASSWORD
 
 > How to create a users in db ?
